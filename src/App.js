@@ -17,13 +17,11 @@ import "./styles/footer.css";
 import "./styles/post.css";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCjUg6qzLuChvFUlR0Bz4yXPBXXsWTa8Hw",
-  authDomain: "theindialab-27b31.firebaseapp.com",
-  databaseURL: "https://theindialab-27b31.firebaseio.com",
-  projectId: "theindialab-27b31",
-  storageBucket: "theindialab-27b31.appspot.com",
-  messagingSenderId: "616702933513",
-  appId: "1:616702933513:web:6e1aaf51f1881439ae96d8"
+  apiKey: process.env.REACT_APP_APIKEY,
+  authDomain: process.env.REACT_APP_DOMAIN,
+  projectId: process.env.REACT_APP_PROJECTID,
+  storageBucket: process.env.REACT_APP_STORAGE,
+  appId: process.env.REACT_APP_APPID
 };
 
 firebase.initializeApp(firebaseConfig);
