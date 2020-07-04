@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Montserrat&display=swap');
+
+/*font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;*/
+
+.login-to-continue {
+	margin-top: 8rem;
+	margin-bottom: 10rem;
+}
+
+.spin {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding: 30px 50px;
+  margin: 20px 0;
+}
+
+.text {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.posts {
+	margin-top: 20px;
+	/*margin-right: 20rem;
+	margin-left: 20rem;*/
+}
+
+.sticky {
+	margin-top: 50px;
+	position: -webkit-sticky;
+  	position: sticky;
+  	top: 0;
+  	padding: 100px;
+  	margin-left: 180px;
+  	padding-top: 130px;
+  	text-align: right;
+}
+
+@media screen and (max-width: 600px){
+	.sticky {
+		margin-top: 0px;
+		padding: 0px;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+}
+
+.category-heading {
+	margin-top: 20px;
+	font-weight: bold;
+	color: #000000;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.image {
+	width: 40rem;
+	height: 22rem;
+	border-radius: 0px;
+}
+
+.column {
+  float: left;
+}
+
+.left {
+  width: 20%;
+}
+
+.right {
+  width: 80%;
+}
+
+.content {
+	margin-top: 20px;
+	padding-bottom: 20px;
+	margin-left: 20px;
+}
+
+.post {
+	margin-top: 50px;
+	padding: 0px;
+	background: linear-gradient(145deg, #ffffff, #ffffff);
+    box-shadow:  5px 5px 15px #DCDCDC;
+}
+
+.read-btn {
+	color: #ffffff;
+	background-color: #000000;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	border-radius: 0px;
+}
+
+.read-btn:hover {
+	color: #ffffff;
+}
+
+@media screen and (max-width: 600px){
+	.posts {
+		text-align: left;
+	}
+
+	.column {
+		width: 100%;
+	}
+
+	.image {
+		width: 100%;
+		height: 30%;
+	}
+
+	.sticky {
+		visibility: hidden;
+	}
+}
+
+.title {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+
+.login-title {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.fa {
+	font-size: 20px;
+	margin-left: 10px;
+	color: #000000;
+}
+
+.know {
+	padding: 80px;
+	text-align: center;
+}
+
+.prof-img {
+	border-radius: 100px;
+	margin-top: 0px;
+}
+
+.prof-info {
+	margin-top: 30px;
+}
+
+@media screen and (max-width: 600px){
+	.prof-img {
+		margin-top: 50px;
+	}
+
+	.know {
+		padding: 15px;
+	}
+}

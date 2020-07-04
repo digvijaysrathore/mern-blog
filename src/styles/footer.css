@@ -1,0 +1,28 @@
+.footer {
+	background-color: #000000;
+	color: #ffffff;
+	margin-top: 50px;
+	padding: 50px;
+	text-align: center;
+}
+
+.links {
+	font-size: 20px;
+	margin-left: 10px;
+	color: #ffffff;
+}
+
+.main-line {
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.cate {
+	color: #ffffff;
+	margin-right: 10px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.cata {
+	margin-right: 0px;
+}
