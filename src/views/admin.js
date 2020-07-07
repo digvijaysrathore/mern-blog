@@ -14,7 +14,7 @@ class Admin extends React.Component {
 			isAdmin: false,
 			body: "",
 			title: "",
-			category: "",
+			category: "business",
 		    isUploading: false,
 		    progress: 0,
 		    image: "",
@@ -41,13 +41,11 @@ class Admin extends React.Component {
 					.then((response) => {
 						that.setState({
 							posts: response.data,
-							fetching: false,
-							success: true
+							fetching: false
 						})
 					}).catch((err) => {
 						that.setState({
-							fetching: false,
-							error: true
+							fetching: false
 						})
 					})
 				} else {

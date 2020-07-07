@@ -62,7 +62,7 @@ class Post extends React.Component {
 							<p className="text"><NavLink className="text-dark" to="/category/life">Life</NavLink></p>
 							<p className="text"><NavLink className="text-dark" to="/resources">Resources.</NavLink></p>
 							<h5 className="category-heading">Connect</h5>
-							<p className="text"><a href="https://instagram.com"><i className="fa fa-youtube-play"></i></a> <a href="https://instagram.com"><i className="fa fa-podcast"></i></a> <a href="https://instagram.com"><i className="fa fa-instagram"></i></a> <a href="https://instagram.com"><i className="fa fa-facebook"></i></a></p>
+							<p className="text"><a href="https://www.youtube.com/channel/UC42sSD-7t1jna5IfPl5DY4w" rel="noopener noreferrer" target="_blank"><i className="fa fa-youtube-play"></i></a> <a href="https://instagram.com" rel="noopener noreferrer" target="_blank"><i className="fa fa-podcast"></i></a> <a rel="noopener noreferrer" target="_blank" href="https://instagram.com/theindialab"><i className="fa fa-instagram"></i></a> <a target="_blank" href="https://facebook.com/theindialab"><i className="fa fa-facebook"></i></a></p>
 						</div>
 						</div>
 					</div>
@@ -90,7 +90,7 @@ class Post extends React.Component {
 								<img className="image" alt="" src={this.state.data.image} />
 								<p className="read-body">{this.state.parsed}</p>
 								<div className="checks">
-								<a className="read-btn" href={this.state.data.file}>Resources</a>
+								<a className="read-btn" href={this.state.data.file} target="_blank">Resources</a>
 								<p className="read-more">*check for resources, if any.</p>
 								<p className="read-more">Continue read more of <NavLink to={"/category/" + this.state.data.category}>{this.state.data.category}</NavLink></p>
 								</div>
@@ -104,7 +104,7 @@ class Post extends React.Component {
 							<p className="text"><NavLink className="text-dark" to="/category/life">Life</NavLink></p>
 							<p className="text"><NavLink className="text-dark" to="/resources">Resources.</NavLink></p>
 							<h5 className="category-heading">Connect</h5>
-							<p className="text"><a href="https://instagram.com"><i className="fa fa-youtube-play"></i></a> <a href="https://instagram.com"><i className="fa fa-podcast"></i></a> <a href="https://instagram.com"><i className="fa fa-instagram"></i></a> <a href="https://instagram.com"><i className="fa fa-facebook"></i></a></p>
+							<p className="text"><a href="https://www.youtube.com/channel/UC42sSD-7t1jna5IfPl5DY4w" rel="noopener noreferrer" target="_blank"><i className="fa fa-youtube-play"></i></a> <a href="https://instagram.com" rel="noopener noreferrer" target="_blank"><i className="fa fa-podcast"></i></a> <a rel="noopener noreferrer" target="_blank" href="https://instagram.com/theindialab"><i className="fa fa-instagram"></i></a> <a target="_blank" href="https://facebook.com/theindialab"><i className="fa fa-facebook"></i></a></p>
 						</div>
 						</div>
 					</div>
