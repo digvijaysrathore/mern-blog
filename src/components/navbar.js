@@ -7,7 +7,7 @@ class NavbarComponent extends React.Component {
 		return (
 			<div className="header">
 			<div className="top">
-			<p className="headline">Have a look on our <a href="https://youtube.com/" className="quicky" target="_blank">youtube channel</a> and <a className="quicky" href="https://youtube.com" target="_blank">podcast</a>, we post about business, life and mindset.</p>
+			<p className="headline">Have a look on our <a href="https://www.youtube.com/channel/UC42sSD-7t1jna5IfPl5DY4w" className="quicky" target="_blank">youtube channel</a> and <a className="quicky" href="https://redcircle.com/shows/theindialab" target="_blank">podcast</a>, we post about business, life and mindset.</p>
 			</div>
 				 <nav className="navbar navbar-expand-md navbar-light">
 				  <NavLink className="navbar-brand" to="/"><img className="logo" alt="" src={Logo} /></NavLink>
